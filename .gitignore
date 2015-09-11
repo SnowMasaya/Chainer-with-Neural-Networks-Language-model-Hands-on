@@ -25,3 +25,4 @@ data/
 
 data/model.*
 ningen_shikkaku*
+.gitignore
