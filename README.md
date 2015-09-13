@@ -1,4 +1,4 @@
-Chainer with Neural Networks Language model 
+Chainer with Neural Networks Language model Tech-Circle#8 
 ====
 
 <img src="https://connpass-tokyo.s3.amazonaws.com/thumbs/5d/34/5d34d4b6510d664622165a26c37e6e81.png" width="400" height="300" />
