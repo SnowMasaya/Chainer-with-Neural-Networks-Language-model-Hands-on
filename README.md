@@ -23,6 +23,8 @@ apt-get install virtualenv
 
 ```
 virtualenv -p python3.xx "Your directory"
+pyenv rehash
+pyenv local 3.4.1
 pip install -r requeriment.txt
 source "Your virtualenv path"/my_env/bin/activate
 ```
