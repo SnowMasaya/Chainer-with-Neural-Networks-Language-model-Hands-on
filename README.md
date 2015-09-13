@@ -3,39 +3,81 @@ Chainer with Neural Networks Language model
 
 This tool is making the Neural Networks Language Model
 
+>[Japanese Reference Pages]http://qiita.com/GushiSnow/private/9ab8761082e29002f735<br>
+
 
 ## Description
 This tool is making the Neural Networks Language Model
 
 If you see the detail about it, you see the below<br> 
+#
+### Install
+
+If you don't install pyenv and virtualenv you have to install bellow
+####Prepare Install
+linux
+```
+apt-get install pyenv 
+apt-get install virtualenv 
+```
+Mac
+```
+brew install pyenv 
+brew install virtualenv 
+```
+
+####Prepare Inastall2
+```
+pyenv install 3.4.1
+pyenv rehash
+pyenv local 3.4.1
+virtualenv -p ~/.pyenv/versions/3.4.1/bin/python3.4 my_env
+source my_env/bin/activate
+
+```
+
+```
+pip install -r requeriment.txt
+```
+Installing a library bellow
 ##Requirements
 
     Python 3.4+
     NumPy
     chainer
-#
-### Install
+    ipython
+    notebook
+    jinja2
+    pyzmq
+    tornado
+
+####Confirm library
 
 ```
-apt-get install pyenv 
-apt-get install virtualenv 
+ipython
 ```
 
+Type command bellow
 ```
-virtualenv -p python3.xx "Your directory"
-pyenv rehash
-pyenv local 3.4.1
-pip install -r requeriment.txt
-source "Your virtualenv path"/my_env/bin/activate
+import math
+import sys
+import time
+
+import numpy as np
+import six
+
+import chainer
+from chainer import cuda
+import chainer.functions as F
+from chainer import optimizers
 ```
 
 #
 ### Usage 
 #
-Prepare wav file
 ```
 *You execute python 
-python predict_emotion_voice.py data/wave file name 
+ipython notebook
 ```
 #
 ### Licence
