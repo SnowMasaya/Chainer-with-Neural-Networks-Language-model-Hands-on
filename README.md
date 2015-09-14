@@ -115,4 +115,5 @@ THE SOFTWARE.
 #
 >[Chainer]http://chainer.org/<br>
 >[Chainer RNN]https://github.com/yusuketomoto/chainer-char-rnn<br>
+>[Learning and Predict Data]https://github.com/torvalds/linux<br>
 
