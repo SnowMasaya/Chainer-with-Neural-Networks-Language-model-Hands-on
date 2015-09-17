@@ -39,7 +39,7 @@ source my_env/bin/activate
 ```
 
 ```
-pip install -r requeriment.txt
+pip install -r requirement.txt 
 ```
 Installing a library bellow
 ##Requirements
